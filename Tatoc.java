@@ -67,7 +67,7 @@ public class Tatoc{
 			driver.switchTo().window(ChildWindow);	
 			if(!MainWindow.equalsIgnoreCase(ChildWindow))	
 			{                                                                                                  
-	           		driver.findElement(By.id("name")).sendKeys("RAHUL RAJAN");
+	           		driver.findElement(By.id("name")).sendKeys("Rahul Gumber");
 	            	driver.findElement(By.id("submit")).click();
 	            	break;
 			}
